@@ -1,8 +1,17 @@
+<<<<<<< HEAD
 #ifndef HOLBERTON_H_INCLUDED
 #define HOLBERTON_H_INCLUDED
 
 int _putchar(char);
 
+=======
+
+#ifndef HOLBERTON_H_INCLUDED
+#define HOLBERTON_H_INCLUDED
+
+int _putchar(char);
+
+>>>>>>> 4f0fdb27c14740a6f291a0e5f6dbd3b49dcdee52
 void print_alphabet(void);
 
 void print_alphabet_x10(void);
