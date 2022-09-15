@@ -1,17 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - function to print abc
- *
- * Return: 0
+ * print_alphabet - Entry point
+ * Description -> A function that prints the alphabet, in lowercas
+ * Return: Always 0
  */
+
 void print_alphabet(void)
 {
-	char c;
+	int j;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (j = 'a'; j <= 'z'; j++)
 	{
-		_putchar(c);
+		_putchar(j);
 	}
-_putchar('\n');
+	_putchar('\n');
 }
